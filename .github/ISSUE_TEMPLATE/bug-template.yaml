@@ -26,14 +26,11 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: input
+    id: pds-version
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: Porsche Design System version
+      placeholder: e.g. 2.16.0
     validations:
       required: true
   - type: dropdown
@@ -46,6 +43,13 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser version
+      placeholder: e.g. 106.0.5249.119
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
