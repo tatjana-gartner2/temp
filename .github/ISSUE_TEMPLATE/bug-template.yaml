@@ -57,7 +57,7 @@ body:
     validations:
       required: false
   - type: input
-      id: reproduction
+      id: rep
       label: Minimal Reproduction
       description: Please provide a [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) of the issue using [StackBlitz] (https://designsystem.porsche.com/latest/help/bug-report#reproduction).
       placeholder: e.g. https://stackblitz.com/
