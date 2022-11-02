@@ -64,11 +64,11 @@ body:
       placeholder: e.g. https://stackblitz.com/
     validations:
       required: true
- - type: textarea
-  id: steps
-  attributes:
-    label: Steps to reproduce
-    description: How do you reproduce this? Please provide as much step-by-step detail as possible.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How do you reproduce this? Please provide as much step-by-step detail as possible.
   validations:
     required: true
   - type: textarea
