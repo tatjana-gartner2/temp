@@ -64,7 +64,6 @@ body:
       placeholder: e.g. https://stackblitz.com/
     validations:
       required: true
-Platform/Browser/Version: [e.g. iOS Safari 11, macOS Chrome 81]
   - type: textarea
     id: logs
     attributes:
