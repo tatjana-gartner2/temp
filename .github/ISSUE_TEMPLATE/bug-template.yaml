@@ -59,8 +59,9 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Contributor License Agreement
+      description: Make sure to read and accept the CLA, before you open the bug: `CONTRIBUTOR_LICENSE_AGREEMENT` Tick the checkbox in case you accept it (`[x]`)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I have read and accept the [Contributor License Agreement](https://github.com/porscheofficial/oss-docs/blob/67c5b24838a293ce7a964884e6005eb71f2b8579/CONTRIBUTOR_LICENSE_AGREEMENT.md)
+      
           required: true
