@@ -67,9 +67,9 @@ body:
  - type: textarea
     id: description
     attributes:
-      label: Description
+      label: Steps to reproduce the behavior
       description: A clear and concise description of what the bug is
-      value: | Steps to reproduce the behavior:
+      value: |
     1. Go to '...'
     2. Click on '....'
     3. Scroll down to '....'
