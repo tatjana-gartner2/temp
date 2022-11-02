@@ -69,6 +69,9 @@ body:
     attributes:
       label: Steps to reproduce
       description: How do you reproduce this? Please provide as much step-by-step detail as possible.
+      value: |
+        1.
+        2.
     validations:
       required: true
   - type: textarea
