@@ -3,7 +3,6 @@ description: Create a report to help us improve
 title: "[BUG] - Short description"
 labels: ["bug 🛑", "to be refined"]
 assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
@@ -16,15 +15,14 @@ body:
       description: Make sure to read and accept the CLA, before you open the bug. Tick the checkbox in case you accept it.
       options:
         - label: I have read and accept the [Contributor License Agreement](https://github.com/porscheofficial/oss-docs/blob/67c5b24838a293ce7a964884e6005eb71f2b8579/CONTRIBUTOR_LICENSE_AGREEMENT.md)
-          required: true
+    validations:
+      required: true
   - type: input
     id: contact
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: input
     id: framework
     attributes:
@@ -54,13 +52,11 @@ body:
     attributes:
       label: Browser version
       placeholder: e.g. 106.0.5249.119
-    validations:
-      required: false
   - type: input
     id: reproduction
     attributes:
       label: Minimal Reproduction
-      description: Please provide a [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) of the issue using [StackBlitz](https://designsystem.porsche.com/latest/help/bug-report#reproduction).
+      description: Please provide a minimal reproduction of the issue using [StackBlitz](https://designsystem.porsche.com/latest/help/bug-report#reproduction).
       placeholder: e.g. https://stackblitz.com/
     validations:
       required: true
@@ -81,7 +77,7 @@ body:
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
-      placeholder: Tell us what you expected to see!
+      placeholder: Tell us what you expected to see
     validations:
       required: true
   - type: textarea
@@ -90,5 +86,3 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-    validations:
-      required: false
